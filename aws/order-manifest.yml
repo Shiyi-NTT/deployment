@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: orderapp
-          image: shiyi0618/order-service:latest
+          image: shiyi0618/order-service:2
           imagePullPolicy: Always
           ports:
             - containerPort: 9094
